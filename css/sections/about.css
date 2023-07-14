@@ -35,18 +35,18 @@
 .abt-h1 {
     font-family: "Lexend", sans-serif;
     font-size: 4rem;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .tiktok-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 20px;
+    margin-top: 1px;
 }
 
 .tiktok-card {
-    margin: 20px;
+    margin: 10px;
     height: 31.6vh;
     width: 11.2vw;
     background: rgba(192, 192, 192, 0.13);
