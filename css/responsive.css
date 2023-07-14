@@ -1,0 +1,28 @@
+@media screen and (max-width: 884px) /* Recommended width for phones. */ {
+    .name-fixed {
+        display: none;
+    }
+ }
+
+
+@media only screen and (min-width: 884px) {
+    .navbar-flex > .responsive_sidebar_icon {
+        display: none;
+    }
+
+    /* ------------------ */
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: var(--cotton);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--lavender-pink);
+
+    }
+    /* ------------------ */
+} 
+

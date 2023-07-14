@@ -1,0 +1,40 @@
+.about-section {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    background: var(--cotton);
+}
+.about-section::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.about-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.about-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-header h1, h2, h3, h4, h5, p {
+    color: var(--black);
+}
+
+.about-header > p {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+}
+.abt-h1 {
+    font-family: "Lexend", sans-serif;
+    font-size: 4rem;
+    padding-top: 50px;
+}
+

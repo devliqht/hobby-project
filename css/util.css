@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Calibre';
+    src: url('fonts/CalibreRegular.otf') format("opentype");
+    font-style: normal;
+}
+
+.padding-sm {
+    padding: 10px;
+}
+
+.padding-sm-reverse {
+
+}
+
+.padding-md {
+    padding: 15px;
+}
+
+.padding-lg {
+    padding: 20px;
+}
+
+.padding-xlg {
+    padding: 30px;
+}
+
+.padding-xxlg {
+    padding: 40px;
+}
+
+.padding-xxxlg {
+    padding: 55px;
+}
+
+.center_content {
+    justify-content: center;
+}
+
+.font-fg {
+    font-family: 'Calibre', sans-serif;
+    font-weight: 500;
+    font-size: 6rem;
+}
