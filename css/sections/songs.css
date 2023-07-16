@@ -37,6 +37,7 @@
     font-size: 2rem;
     padding-top: 30px;
     color: rgb(30, 215, 95);
+    text-align: center;
 }
 
 .artist-list {
@@ -60,11 +61,12 @@
 .artist-container:hover {
     border: 5px solid rgb(30, 215, 95);
 }
+
 .artist-rank {
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center;
-    color: var(--cotton);
-    font-family: "gothammedium", sans-serif;
+    color: rgb(179, 179, 179);
+    font-family: "gothambold", sans-serif;
 }
 .artist-name {
     font-size: 1.4rem;
@@ -85,7 +87,6 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    margin: 20px;
 }
 
 .songs-right-side {
@@ -102,6 +103,31 @@
     flex-wrap: wrap;
 }
 
+.honorable-artist-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 800px;
+}
+
+.artist-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.artist-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.honorable-artist-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .honorable-artist {
     color: var(--cotton);
     font-family: "gothammedium", sans-serif;
@@ -109,6 +135,13 @@
     margin: 2px;
 }
 
-.honorable-artist::after {
+.honorable-artist1 {
+    color: rgb(179, 179, 179);
+    font-family: "gothammedium", sans-serif;
+    font-size: 1.4rem;
+    margin: 2px;
+}
+
+.honorable-artist::after, .honorable-artist1::after {
     content: " ·"
 }
