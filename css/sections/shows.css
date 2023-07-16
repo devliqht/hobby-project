@@ -51,5 +51,18 @@
 }
 
 .netflix-logo {
-    width: 320px;
+    width: 260px;
+    margin: 24px;
+}
+
+.netflix-h1 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'NetflixMedium', sans-serif;
+    font-size: 2rem;
+    padding-top: 30px;
+    color: var(--cotton);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
