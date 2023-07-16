@@ -19,9 +19,9 @@
 }
 
 .shows-card {
-    margin: 20px;
-    height: 19vh;
-    width: 16vw;
+    margin: 12px;
+    height: 170px;
+    width: 300px;
     background: rgba(192, 192, 192, 0.13);
     box-shadow:
     0px 1.3px 7.9px rgba(0, 0, 0, 0.182),
@@ -32,6 +32,8 @@
 
 .shows-card:hover {
     background: rgba(192, 192, 192, 0.468);
+    width: 310px;
+    height: 180px;
 }
 
 .shows-card > .shows-card-img, .shows-card-img:hover {
@@ -43,8 +45,11 @@
 .shows-card-wrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .netflix-logo {
-    width: 380px;
+    width: 320px;
 }
