@@ -1,6 +1,6 @@
 .shows-section {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     overflow-x: hidden;
     overflow-y: scroll;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 14px;
 }
 
 .shows-card {
